@@ -1,0 +1,4 @@
+wheel==0.35.1
+mod-wsgi-standalone==4.7.1
+Django==3.1
+psycopg2==2.8.5

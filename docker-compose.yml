@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_DB: "db"
+      POSTGRES_HOST_AUTH_METHOD: "trust"
+      # Where postgres runs in the container - a simple installation, otherwise simply define in settings.py
+
+  web:
+    build: .
+    command: python manage.py runmodwsgi --reload-on-changes --user www-data --group www-data
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
