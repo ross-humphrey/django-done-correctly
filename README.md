@@ -24,3 +24,9 @@ To view containers
 
 To bring application down
 `docker-compose down`
+
+
+## Django
+
+### Add a new application using
+`python manage.py startapp <app_name>`
