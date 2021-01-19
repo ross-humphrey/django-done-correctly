@@ -1,6 +1,6 @@
 wheel==0.35.1
 mod-wsgi-standalone==4.7.1
-Django==3.1
+Django==3.1.5
 psycopg2-binary==2.8.5
 
 # Code Formatting
