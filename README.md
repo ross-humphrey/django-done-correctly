@@ -16,7 +16,7 @@ The Dockerfile and docker-compose.yml define how to run this project in docker
 
 To compose and build the services use:
 
-`docker-compose-up` 
+`docker-compose up` 
 This will run the django app using the docker file
 
 To view containers
