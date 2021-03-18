@@ -1,6 +1,7 @@
 ## mod_wsgi-express
 Better suited for using Apache and mod_wsgi within a docker container. Which 
-is what we are trying to achieve here.
+is what we are trying to achieve here. Using this command get you close 
+to the runtime environment used in docker
 
 Can be run using
 
