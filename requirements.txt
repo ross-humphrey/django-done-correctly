@@ -4,4 +4,4 @@ Django==3.2.4
 psycopg2-binary==2.8.6
 
 # Code Formatting
-black==21.5b2
+black==21.6b0
